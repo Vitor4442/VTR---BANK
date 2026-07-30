@@ -2,7 +2,9 @@ package com.vtr.vtrbank.account.entity;
 
 import com.vtr.vtrbank.auth_users.entity.User;
 import com.vtr.vtrbank.enums.AccountStatus;
+import com.vtr.vtrbank.enums.AccountType;
 import com.vtr.vtrbank.enums.Currency;
+import com.vtr.vtrbank.transaction.entity.Transaction;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -12,6 +14,7 @@ import lombok.NoArgsConstructor;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Data

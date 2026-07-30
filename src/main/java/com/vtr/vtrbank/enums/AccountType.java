@@ -1,6 +1,6 @@
 package com.vtr.vtrbank.enums;
 
-public enum AccountTypes {
+public enum AccountType {
     SAVING,
     CURRENT
 }

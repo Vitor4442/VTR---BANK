@@ -6,7 +6,9 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.vtr.vtrbank.auth_users.dtos.UserDTO;
 import com.vtr.vtrbank.enums.AccountStatus;
+import com.vtr.vtrbank.enums.AccountType;
 import com.vtr.vtrbank.enums.Currency;
+import com.vtr.vtrbank.transaction.dtos.TransactionDTO;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -14,6 +16,7 @@ import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Data
 @Builder

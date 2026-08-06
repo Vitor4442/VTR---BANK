@@ -1,5 +1,6 @@
 package com.vtr.vtrbank.auth_users.entity;
 
+import com.vtr.vtrbank.account.entity.Account;
 import com.vtr.vtrbank.role.entity.Role;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
